@@ -5,7 +5,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle, SheetDescription } from "@/components/ui/sheet";
 import { Menu, X, Heart } from "lucide-react";
 import { Link } from "wouter";
 
@@ -27,6 +27,8 @@ export default function MobileNav() {
         </Button>
       </SheetTrigger>
       <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+        <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+        <SheetDescription className="sr-only">Main navigation links for Pleasure & Wellness Hub</SheetDescription>
         <div className="flex flex-col h-full">
           {/* Header */}
           <div className="flex items-center justify-between mb-8">

@@ -20,11 +20,13 @@ export default function Resources() {
               <Heart className="w-8 h-8 text-primary" fill="currentColor" />
               <span className="text-2xl font-bold text-foreground">Pleasure & Wellness Hub</span>
             </Link>
-            <div className="hidden md:flex items-center gap-8">
-              <Link href="/" className="text-foreground/80 hover:text-primary transition-colors">Home</Link>
-              <Link href="/calculators" className="text-foreground/80 hover:text-primary transition-colors">Calculators</Link>
-              <Link href="/resources" className="text-primary font-medium">Resources</Link>
-              <Button className="spring-hover bg-accent text-accent-foreground hover:bg-accent/90">Get Started</Button>
+            <div className="flex items-center gap-4">
+              <div className="hidden md:flex items-center gap-8">
+                <Link href="/" className="text-foreground/80 hover:text-primary transition-colors">Home</Link>
+                <Link href="/calculators" className="text-foreground/80 hover:text-primary transition-colors">Calculators</Link>
+                <Link href="/resources" className="text-primary font-medium">Resources</Link>
+                <Button className="spring-hover bg-accent text-accent-foreground hover:bg-accent/90">Get Started</Button>
+              </div>
               <MobileNav />
             </div>
           </div>

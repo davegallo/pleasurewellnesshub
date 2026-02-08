@@ -21,13 +21,15 @@ export default function Home() {
               <Heart className="w-8 h-8 text-primary" fill="currentColor" />
               <span className="text-2xl font-bold text-foreground">Pleasure & Wellness Hub</span>
             </div>
-            <div className="hidden md:flex items-center gap-8">
-              <Link href="/calculators" className="text-foreground/80 hover:text-primary transition-colors">Calculators</Link>
-              <Link href="/resources" className="text-foreground/80 hover:text-primary transition-colors">Resources</Link>
-              <a href="#about" className="text-foreground/80 hover:text-primary transition-colors">About</a>
-              <Link href="/calculators">
-                <Button className="spring-hover bg-accent text-accent-foreground hover:bg-accent/90">Get Started</Button>
-              </Link>
+            <div className="flex items-center gap-4">
+              <div className="hidden md:flex items-center gap-8">
+                <Link href="/calculators" className="text-foreground/80 hover:text-primary transition-colors">Calculators</Link>
+                <Link href="/resources" className="text-foreground/80 hover:text-primary transition-colors">Resources</Link>
+                <a href="#about" className="text-foreground/80 hover:text-primary transition-colors">About</a>
+                <Link href="/calculators">
+                  <Button className="spring-hover bg-accent text-accent-foreground hover:bg-accent/90">Get Started</Button>
+                </Link>
+              </div>
               <MobileNav />
             </div>
           </div>
