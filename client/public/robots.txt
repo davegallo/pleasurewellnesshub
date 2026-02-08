@@ -1,0 +1,35 @@
+# Robots.txt for Pleasure & Wellness Hub
+# Sexual wellness education and resources
+
+User-agent: *
+Allow: /
+
+# Allow all educational content
+Allow: /calculators
+Allow: /resources
+Allow: /article/
+Allow: /guide/
+Allow: /about
+Allow: /contact
+
+# Disallow calculator result pages to prevent duplicate content
+Disallow: /calculator/*/results
+
+# Disallow admin and utility pages
+Disallow: /404
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /

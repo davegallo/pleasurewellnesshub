@@ -42,7 +42,7 @@ export default function Contact() {
                 <CardDescription>Questions about our content or services</CardDescription>
               </CardHeader>
               <CardContent>
-                <a href="mailto:hello@pleasurewellnesshub.com" className="text-primary hover:underline">
+                <a href="mailto:hello@pleasurewellnesshub.com" className="text-primary hover:underline break-all">
                   hello@pleasurewellnesshub.com
                 </a>
               </CardContent>
@@ -55,7 +55,7 @@ export default function Contact() {
                 <CardDescription>Collaboration and business opportunities</CardDescription>
               </CardHeader>
               <CardContent>
-                <a href="mailto:partnerships@pleasurewellnesshub.com" className="text-primary hover:underline">
+                <a href="mailto:partnerships@pleasurewellnesshub.com" className="text-primary hover:underline break-all">
                   partnerships@pleasurewellnesshub.com
                 </a>
               </CardContent>
@@ -68,7 +68,7 @@ export default function Contact() {
                 <CardDescription>Technical issues or feedback</CardDescription>
               </CardHeader>
               <CardContent>
-                <a href="mailto:support@pleasurewellnesshub.com" className="text-primary hover:underline">
+                <a href="mailto:support@pleasurewellnesshub.com" className="text-primary hover:underline break-all">
                   support@pleasurewellnesshub.com
                 </a>
               </CardContent>
